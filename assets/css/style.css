@@ -144,6 +144,23 @@ main {
     margin: 5px 0;
 }
 
+/* Circle image*/
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Makes the div a circle*/
+    border-radius: 50%;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Footer */
 #social-networks {
